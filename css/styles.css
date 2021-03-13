@@ -391,6 +391,16 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.footer-content {
+  display: flex;
+}
+
+/* !!! Это пример седектора-соседа (коммент для себя) */
+.footer-content-item + .footer-content-item {
+  margin-left: 70px;
+}
+
 .address {
   font-style: normal;
   font-size: 14px;
@@ -418,6 +428,21 @@ footer {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
+}
+
+.social-links {
+  display: flex;
+}
+
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: var(--white-color);
 }
 
 /* ============= END FOOTER ============= */
