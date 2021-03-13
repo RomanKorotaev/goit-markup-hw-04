@@ -45,6 +45,7 @@ img {
   --header-line: #ececec;
   --work-card-border: #eeeeee;
   --padding-value: 94px;
+  --hero-bkg-color: #c4c4c4;
 }
 
 body {
@@ -189,6 +190,23 @@ header {
 
 .hero-backgr {
   background: var(--dark-backgr);
+
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero-studio-bkg.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--hero-bkg-color);
+
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -295,7 +313,7 @@ header {
 
 /* =============  STUDIO. END SECTION: WHAT WE DO  ============= */
 
-/* =============  STUDIO. END SECTION: OUR TEAM  ============= */
+/* =============  STUDIO. SECTION: OUR TEAM  ============= */
 
 .team-section-bkr {
   background: var(--silver-backgr);
@@ -339,7 +357,33 @@ header {
   letter-spacing: 0.03em;
 }
 
-/* ============= END  STUDIO. SECTION: OUR TEAM ============= */
+/* ============= STUDIO. END SECTION: OUR TEAM ============= */
+
+.regular-customers-section {
+  /*background-color: tomato;*/
+  padding-top: var(--padding-value);
+  padding-bottom: var(--padding-value);
+}
+
+.regular-customers-list {
+  display: flex;
+}
+
+/*
+.what-we-do-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.what-we-do-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+*/
+
+/* ============= STUDIO. SECTION: REGULAR CUSTOMERS  ============= */
+
+/* =============  STUDIO. END SECTION: REGULAR CUSTOMERS  ============= */
 
 /* ============= FOOTER ============= */
 footer {
