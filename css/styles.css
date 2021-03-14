@@ -470,38 +470,6 @@ header {
   margin-left: 30px;
 }
 
-/*
-.customers-list-item + .customers-list-item {
-  margin-left: 30px;
-}
-*/
-
-/*
-.customers-list-item:nth-child(3) {
-  fill: tomato;
-  color: red;
-  width: 250px;
-  height: 250px;
-}
-*/
-
-/*
-.list-item:nth-child(5) {
-  background-color: orange;
-} */
-
-/*
-.what-we-do-list {
-  display: flex;
-  margin-left: -30px;
-}
-
-.what-we-do-item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-}
-*/
-
 /* ============= STUDIO. SECTION: REGULAR CUSTOMERS  ============= */
 
 /* =============  STUDIO. END SECTION: REGULAR CUSTOMERS  ============= */
@@ -564,6 +532,24 @@ footer {
   margin-bottom: 20px;
 
   color: var(--white-color);
+}
+
+.social-list-link-footer {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-list-icon-footer {
+  fill: var(--white-color);
+}
+
+.social-list-footer {
+  margin-left: -10px;
+}
+
+.social-list-link-footer {
+  box-sizing: border-box;
+  flex-basis: calc(100% / 4 - 10px);
+  margin-left: 10px;
 }
 
 /* ============= END FOOTER ============= */
