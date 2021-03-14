@@ -388,6 +388,41 @@ header {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 16px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  align-items: center;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--white-color);
+  /*background-color: var(--accent-color);*/
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--content-color);
 }
 
 /* ============= STUDIO. END SECTION: OUR TEAM ============= */
