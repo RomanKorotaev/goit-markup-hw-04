@@ -416,7 +416,6 @@ header {
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--white-color);
-  /*background-color: var(--accent-color);*/
 }
 
 .social-list-icon {
@@ -428,14 +427,68 @@ header {
 /* ============= STUDIO. END SECTION: OUR TEAM ============= */
 
 .regular-customers-section {
-  /*background-color: tomato;*/
   padding-top: var(--padding-value);
   padding-bottom: var(--padding-value);
 }
 
 .regular-customers-list {
   display: flex;
+  margin-left: -30px;
 }
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.customers-list-icon {
+  width: 50px;
+  height: 50px;
+  fill: var(--content-color);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--accent-color);
+}
+
+.customers-link:hover .customers-list-icon,
+.customers-link:focus .customers-list-icon {
+  fill: var(--accent-color);
+}
+
+.customers-list-item {
+  box-sizing: border-box;
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+}
+
+/*
+.customers-list-item + .customers-list-item {
+  margin-left: 30px;
+}
+*/
+
+/*
+.customers-list-item:nth-child(3) {
+  fill: tomato;
+  color: red;
+  width: 250px;
+  height: 250px;
+}
+*/
+
+/*
+.list-item:nth-child(5) {
+  background-color: orange;
+} */
 
 /*
 .what-we-do-list {
