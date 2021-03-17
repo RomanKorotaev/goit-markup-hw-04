@@ -46,7 +46,8 @@ img {
   --work-card-border: #eeeeee;
   --padding-value: 94px;
   --hero-bkg-color: #c4c4c4;
-}
+  --social-link-color: #AFB1B8;
+} /*fill="var(--color2, #2196f3)*/
 
 body {
   font-family: var(--main-font);
@@ -174,7 +175,8 @@ header {
   letter-spacing: 0.02em;
   color: var(--content-color);
 
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -182,7 +184,8 @@ header {
  
  
 .contact-links-icon {
-  fill: var(--content-color);
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 
@@ -280,6 +283,10 @@ header {
 }
 
 .advantages-svg-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -362,8 +369,8 @@ header {
 .team-item {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 .team-title {
@@ -381,7 +388,7 @@ header {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .social-list {
@@ -415,6 +422,8 @@ header {
   width: 20px;
   height: 20px;
   fill: var(--content-color);
+  fill: var(--social-link-color)
+  /* --social-link-color*/
 }
 
 /* ============= STUDIO. END SECTION: OUR TEAM ============= */
@@ -443,8 +452,6 @@ header {
 
 
 .customers-list-icon {
-  /*width: 50px;
-  height: 50px;*/
   fill: var(--content-color);
 }
 
