@@ -46,7 +46,7 @@ img {
   --work-card-border: #eeeeee;
   --padding-value: 94px;
   --hero-bkg-color: #c4c4c4;
-  --social-link-color: #AFB1B8;
+  --social-link-color: #afb1b8;
 } /*fill="var(--color2, #2196f3)*/
 
 body {
@@ -97,7 +97,6 @@ header {
   display: flex;
   align-items: center;
 }
-
 
 .navigation {
   display: flex;
@@ -160,12 +159,11 @@ header {
 
 .header-contacts {
   margin-left: auto;
-
 }
 
 .header .header-contacts {
   display: flex;
- align-items: center;
+  align-items: center;
 }
 
 .contact-links {
@@ -181,22 +179,18 @@ header {
   padding-bottom: 32px;
 }
 
- 
- 
 .contact-links-icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-
 .header-contacts-icon svg:hover,
-.header-contacts-icon  svg:focus,
+.header-contacts-icon svg:focus,
 .contact-links:hover,
-.contact-links:focus
- {
+.contact-links:focus {
   fill: var(--accent-color);
   color: var(--accent-color);
- }
+}
 
 .current {
   color: var(--accent-color);
@@ -400,7 +394,6 @@ header {
 .social-list-link {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -422,7 +415,7 @@ header {
   width: 20px;
   height: 20px;
   fill: var(--content-color);
-  fill: var(--social-link-color)
+  fill: var(--social-link-color);
   /* --social-link-color*/
 }
 
@@ -450,11 +443,9 @@ header {
   border-radius: 4px;
 }
 
-
 .customers-list-icon {
   fill: var(--content-color);
 }
-
 
 .customers-link:hover,
 .customers-link:focus {
@@ -485,6 +476,7 @@ footer {
 
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
 
 /* !!! Это пример седектора-соседа (коммент для себя) */
@@ -540,10 +532,6 @@ footer {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.social-list-icon-footer {
-  fill: var(--white-color);
-}
-
 .social-list-footer {
   margin-left: -10px;
 }
@@ -551,7 +539,12 @@ footer {
 .social-list-link-footer {
   box-sizing: border-box;
   flex-basis: calc(100% / 4 - 10px);
+  /*fill: var(--white-color);*/
   margin-left: 10px;
+}
+
+.social-list-icon-footer {
+  fill: var(--white-color);
 }
 
 /* ============= END FOOTER ============= */
