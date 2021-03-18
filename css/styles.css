@@ -47,7 +47,7 @@ img {
   --padding-value: 94px;
   --hero-bkg-color: #c4c4c4;
   --social-link-color: #afb1b8;
-} /*fill="var(--color2, #2196f3)*/
+}
 
 body {
   font-family: var(--main-font);
@@ -540,11 +540,15 @@ footer {
   box-sizing: border-box;
   flex-basis: calc(100% / 4 - 10px);
   /*fill: var(--white-color);*/
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
 
 .social-list-icon-footer {
   fill: var(--white-color);
+}
+
+.soc-link-in-footer {
+  margin-left: 10px;
 }
 
 /* ============= END FOOTER ============= */
